@@ -1,16 +1,16 @@
 RFWJ
 ---
 
-React, flow, webpack, jest
+TypeScript, Webpack, React, jest
 
-This is a 0 config, get-started-quickly opinionated repo for spinning up a React/Flow/Jest/Webpack webapp.
+This is a 0 config, get-started-quickly opinionated repo for spinning up a TypeScript/React/Jest/Webpack webapp.
 
 ## To use:
 
 _this quick rundown assumes you have Node installed and a working knowledge of React, documentation links on the bottom if you want_
 
 - Start all the things
-  - `$ git clone https://github.com/tbremer/rfwj.git`
+  - `$ git clone https://github.com/tbremer/tswrj.git`
 - Remove all the `gits`
   - `$ rm -rf .git*`
 - Install all the things
@@ -32,17 +32,13 @@ _this quick rundown assumes you have Node installed and a working knowledge of R
 ## Documentation:
 
 - [React](https://reactjs.org/)
-- [Flow](https://flow.org/)
+- [TypeScript](http://www.typescriptlang.org/
 - [Webpack](https://webpack.js.org)
   - Plugins:
     - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin)
   - Loaders:
-    - [`babel-loader`](https://github.com/babel/babel-loader)
+    - [`awesome-typescript-loader`](https://github.com/s-panferov/awesome-typescript-loader)
 - [Jest](https://facebook.github.io/jest/)
 
 ## Misc.
 
-### Babel Plugins / Presets
-- [`env`](https://github.com/babel/babel/tree/master/packages/babel-preset-env)
-- [`flow`](https://github.com/babel/babel/tree/master/packages/babel-preset-flow)
-- [`react`](https://github.com/babel/babel/tree/master/packages/babel-preset-react)
